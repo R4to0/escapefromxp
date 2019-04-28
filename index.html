@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Escape From XP</title>
+	<link href="css/styles.css" rel="stylesheet"/>
+	<script>
+		function inIframe () {
+		    try {
+		        return window.self !== window.top;
+		    } catch (e) {
+		        return true;
+		    }
+		}
+		if(!inIframe()) {
+			window.location = "http://www.modern.ie/en-us/virtualization-tools#escape-from-xp";
+		}
+	</script>
+</head>
+<body>
+	<div id="game-container">
+		<canvas id="canvas">
+			<a href="http://windows.microsoft.com/ie" target="_blank"><img src="media/Canvas_Error_REV.png" width="800" height="600" /></a>
+		</canvas>
+		<a id="share_facebook" class="share-link" target='_blank' href=''  class='facebook'>Share on Facebook</a>
+		<a id="share_twitter" class="share-link" target='_blank' href='' class='twitter'>Share on Twitter</a>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/game.min.js"></script>
+	<script type="text/javascript" src="utils/utils.js"></script>
+	<script type="text/javascript" src="utils/lodash.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+html,body {
+  background-color: #222;
+  color: #fff;
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 12pt;
+}
+
+#game-container {
+  width:800px;
+  height:600px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#canvas {
+  
+}
+
+.share-link {
+  display:none;
+  width:32px;
+  height:28px;
+  text-indent:-9999px;
+  top:32px;
+  position:absolute;
+}
+
+#share_facebook {
+  background:url('media/icons_share.png') no-repeat right center;
+  left:462px;
+}
+
+#share_twitter {
+  background:url('media/icons_share.png') no-repeat left center;
+  left:420px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 34px 0 10px 0;
+}
+
+form {
+  width: 312px;
+  position: absolute;
+  left: 50%;
+  margin-left: -153px;
+  text-align: center;
+}
+
+input {
+  margin: 0 0 5px 0;
+  width: 200px;
+  padding: 5px 8px;
+  border: 1px solid #dcdcdc;
+}
+
+#LoginButton {
+  margin: 10px 0;
+}
+
+#NotPublicCheckBox {
+  width: auto;
+}
